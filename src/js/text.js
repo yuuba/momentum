@@ -74,10 +74,10 @@ export const textT = {
   },
   greetings: {
     be: {
-      morning: "Добры дзень",
-      afternoon: "Добры день",
-      evening: "Добры вечер",
-      night: "Добрая ноч",
+      morning: "Добрай раніцы",
+      afternoon: "Добры дзень",
+      evening: "Добры вечар",
+      night: "Дабранач",
     },
     ru: {
       morning: "Доброе утро",
