@@ -1,6 +1,7 @@
 export const configMomentum = {
-  lang: "ru",
+  lang: "en",
   clock: {
     timeFormat: "24",
   },
+  nameUser: "User",
 };

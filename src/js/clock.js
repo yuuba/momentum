@@ -8,16 +8,13 @@ export function whichTime() {
     return "morning";
   } else if (dateNow.getHours() > 12 && dateNow.getHours() < 18) {
     return "afternoon";
-  } else if (
-    dateNow.getHours() > 18 ||
-    (dateNow.getHours() > 23 && dateNow.getMinutes() < 59)
-  ) {
+  } else if (dateNow.getHours() > 18 || (dateNow.getHours() > 23 && dateNow.getMinutes() < 59)) {
     return "evening";
   } else if (dateNow.getHours() > 0 && dateNow.getHours() < 6) {
     return "night";
   }
 }
-
+// {day: 'Среда,14 Февраля', time: '4:21:6', greetings: 'Доброй ночи'}
 export function clockMomentum() {
   const dateNow = new Date();
   let result = {};
@@ -32,7 +29,6 @@ export function clockMomentum() {
   result.day = day;
   result.time = time;
   result.greetings = greetingsData;
-  // console.log(day, time, greetingsData);
-  console.log(result);
+  // console.log(result);
   return result;
 }
