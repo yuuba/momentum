@@ -370,25 +370,22 @@ template {
   grid-template-rows: 100vh;
 }
 .center__block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 1fr 1fr 1fr 1fr 1fr;
+
   color: rgba($color: #fff, $alpha: 1);
   font-size: 50px;
   .clock {
-    // color: rgba($color: #fff, $alpha: 1);
     font-size: 150px;
   }
   .day {
-    // color: rgba($color: #fff, $alpha: 1);
     font-size: 20px;
   }
   .greetings {
-    // font-size: 20px;
   }
   .quotes {
-    margin-top: 250px;
     font-size: 20px;
   }
 }
@@ -440,32 +437,24 @@ template {
 
 input {
   box-sizing: border-box;
-  height: 45px;
+  height: 50px;
   width: 125px;
   padding: 12.5px;
   outline: none;
   border: none;
   border-radius: 25px;
-  box-shadow: 0 2px 5px rgba(15, 15, 51, 0.4);
-  font-size: 25px;
+  font-size: 50px;
   color: rgba(15, 15, 51, 0.8);
   background-color: rgba(255, 255, 255, 0.3);
   transition: 0.4s;
   color: #fff;
-}
-
-input:hover,
-:focus {
-  width: 275px;
-  border-radius: 10px;
-  box-shadow: 0 5px 5px rgba(15, 15, 51, 0.4);
-}
-
-input:not(:placeholder-shown) {
-  margin-bottom: 10px;
-  border-bottom: 6px solid #3782f7;
-  height: 69px;
-}
-input::placeholder {
-  color: #fff;
+  &:hover,
+  :focus {
+    width: 95px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(15, 15, 51, 0.4);
+  }
+  &::placeholder {
+    color: #fff;
+  }
 }
