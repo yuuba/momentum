@@ -4,16 +4,13 @@ import { configMomentum } from "./config";
 //day or night
 export function whichTime() {
   const dateNow = new Date();
-  if (dateNow.getHours() > 6 && dateNow.getHours() < 12) {
+  if (dateNow.getHours() >= 6 && dateNow.getHours() < 12) {
     return "morning";
-  } else if (dateNow.getHours() > 12 && dateNow.getHours() < 18) {
+  } else if (dateNow.getHours() >= 12 && dateNow.getHours() < 18) {
     return "afternoon";
-  } else if (
-    dateNow.getHours() > 18 ||
-    (dateNow.getHours() > 23 && dateNow.getMinutes() < 59)
-  ) {
+  } else if (dateNow.getHours() >= 18 && dateNow.getHours() <= 23) {
     return "evening";
-  } else if (dateNow.getHours() > 0 && dateNow.getHours() < 6) {
+  } else if (dateNow.getHours() >= 0 && dateNow.getHours() < 6) {
     return "night";
   }
 }
@@ -32,6 +29,7 @@ export function clockMomentum() {
     .getMinutes()
     .toString()
     .padStart(2, "0")}:${dateNow.getSeconds().toString().padStart(2, "0")}`;
+  // console.log(whichTime());
   let greetingsData = textT.greetings[configMomentum.lang][whichTime()];
   result.day = day;
   result.time = time;
