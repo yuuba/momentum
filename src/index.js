@@ -1,12 +1,14 @@
 import "./scss/main.scss";
-import { configMomentum } from "./js/config";
+import { configMomentum, loadConfig, saveConfig } from "./js/config";
 import { clockMomentum } from "./js/clock";
 import { setBg } from "./js/setbg";
 import { showQuotes } from "./js/quotes";
 import "./js/slider";
 import "./js/name";
+import "./js/langch";
 
 setBg();
+loadConfig();
 showQuotes(configMomentum.lang);
 
 const clockPage = document.querySelector(".clock");
@@ -17,4 +19,5 @@ setInterval(() => {
   clockPage.innerText = cl.time;
   dayPage.innerText = cl.day;
   grPage.innerText = cl.greetings;
+  // loadConfig();
 }, 1000);

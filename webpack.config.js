@@ -33,8 +33,15 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "public"),
     },
+    client: {
+      overlay: true,
+    },
     watchFiles: path.join(__dirname, "src"),
-    port: 9000,
+    port: 5000,
+    hot: true,
+    liveReload: true,
+
     allowedHosts: "all",
+    compress: true,
   },
 };

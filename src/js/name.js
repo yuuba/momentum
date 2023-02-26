@@ -1,13 +1,14 @@
-import { configMomentum } from "./config";
+import { configMomentum, saveConfig, loadConfig } from "./config";
 const inputNamePage = document.querySelector("#nameinput");
-function setName() {
-  const namePage = document.querySelector("#nameuser");
-
+const namePage = document.querySelector("#nameuser");
+export function setName() {
   if (!configMomentum.nameUser) {
-    // namePage.innerText = "Unknown";
+    inputNamePage.classList.remove("hidden");
+    // inputNamePage.innerText = "";
   } else {
     namePage.innerText = configMomentum.nameUser;
     inputNamePage.classList.add("hidden");
+    saveConfig();
   }
 }
 
@@ -18,3 +19,8 @@ inputNamePage.addEventListener("keyup", (event) => {
     setName();
   }
 });
+loadConfig();
+if (configMomentum.nameUser) {
+  namePage.innerText = configMomentum.nameUser;
+  inputNamePage.classList.add("hidden");
+}

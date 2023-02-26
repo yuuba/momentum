@@ -1,5 +1,5 @@
 import { textT } from "./text";
-import { configMomentum } from "./config";
+import { configMomentum, loadConfig } from "./config";
 
 //day or night
 export function whichTime() {
@@ -17,6 +17,7 @@ export function whichTime() {
 
 // {day: 'Среда,14 Февраля', time: '4:21:6', greetings: 'Доброй ночи'}
 export function clockMomentum() {
+  loadConfig();
   const dateNow = new Date();
   let result = {};
   let day =
