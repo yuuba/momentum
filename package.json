@@ -1,13 +1,14 @@
 {
   "name": "momentum",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://yuuba.github.io/momentum/",
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve --open --mode development",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "css-loader": "^6.7.3",
     "filemanager-webpack-plugin": "^8.0.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^8.0.1",

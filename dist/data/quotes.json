@@ -1,0 +1,310 @@
+{
+  "quotes": {
+    "ru": [
+      {
+        "quote": "Век живи — век учись.",
+        "author": "Лао Цзы"
+      },
+      {
+        "quote": "Не ищи греха у других, если не знаешь, как жить своей жизнью.",
+        "author": "Федор Достоевский"
+      },
+      {
+        "quote": "Тот, кто держит в руках власть, не может испытывать благодарности.",
+        "author": "Лев Толстой"
+      },
+      {
+        "quote": "Не верьте тем, кто говорит, а верьте тем, кто делает.",
+        "author": "Антон Чехов"
+      },
+      {
+        "quote": "Мудрость не может быть насильственно введена в голову ни одного человека.",
+        "author": "Платон"
+      },
+      {
+        "quote": "Человек должен жить так, чтобы каждый его день был праздником.",
+        "author": "Марк Твен"
+      },
+      {
+        "quote": "Кто не рискует, тот не пьет шампанского.",
+        "author": "Александр Пушкин"
+      },
+      {
+        "quote": "Жизнь коротка, чтобы ждать.",
+        "author": "Неизвестен"
+      },
+      {
+        "quote": "Он думает, что знает, что не знает.",
+        "author": "Сократ"
+      },
+      {
+        "quote": "Нет ничего такого, что нельзя было бы сделать лучше.",
+        "author": "Леонардо да Винчи"
+      },
+      {
+        "quote": "Время – это деньги.",
+        "author": "Бенджамин Франклин"
+      },
+      {
+        "quote": "Люди не понимают того, что имеют, пока не потеряют его.",
+        "author": "Лао Цзы"
+      },
+      {
+        "quote": "Кто учится, живет вечно.",
+        "author": "Георг Виллем Фрейд"
+      },
+      {
+        "quote": "Не ждите от жизни чего-то воздаяния, жийте так, чтобы жить с удовольствием.",
+        "author": "Александр Дюма"
+      },
+      {
+        "quote": "Кто хочет жить вечно, должен делать что-то, что будет жить вечно.",
+        "author": "Неизвестен"
+      },
+      {
+        "quote": "Если вы хотите узнать, кто вы на самом деле, попробуйте делать то, что вы боитесь.",
+        "author": "Елена Боннер"
+      },
+      {
+        "quote": "Не судите других, если сами не желаете быть осужденными.",
+        "author": "Джеймс Аллен"
+      },
+      {
+        "quote": "Мы не можем жить в прошлом, но мы можем изучать его.",
+        "author": "Альберт Эйнштейн"
+      },
+      {
+        "quote": "Старость не для трусов.",
+        "author": "Неизвестен"
+      },
+      {
+        "quote": "Мудрость не может быть передана, она может быть только приобретена.",
+        "author": "Конфуций"
+      },
+      {
+        "quote": "Жизнь для тех, кто живет, а для тех, кто не живет, она не существует.",
+        "author": "Эпиктет"
+      },
+      {
+        "quote": "Жизнь коротка, чтобы ждать.",
+        "author": "Неизвестен"
+      },
+      {
+        "quote": "Никогда не поздно начать все сначала.",
+        "author": "Франсуа Може"
+      },
+      {
+        "quote": "Не тот, кто живет мало, а тот, кто мало живет.",
+        "author": "Сенека"
+      },
+      {
+        "quote": "Самый сложный путь – это путь к себе.",
+        "author": "Фридрих Ницше"
+      }
+    ],
+    "be": [
+      {
+        "quote": "Век жыві — век вучыся.",
+        "author": "Лаа Цзы"
+      },
+      {
+        "quote": "Не шукай граху ў іншых, калі не ведаеш, як жыць сваім жыццём.",
+        "author": "Фёдар Дастаеўскі"
+      },
+      {
+        "quote": "Той, хто трымае ў руках уладу, не можа адчуваць падзякі.",
+        "author": "Леў Талстой"
+      },
+      {
+        "quote": "Не верце тым, хто кажа, а верце тым, хто робіць.",
+        "author": "Антон Чэхаў"
+      },
+      {
+        "quote": "Мудрасць не можа быць гвалтоўна ўведзена ў галаву ніводнага чалавека.",
+        "author": "Платон"
+      },
+      {
+        "quote": "Чалавек павінен жыць так, каб кожны яго дзень быў святам.",
+        "author": "Марк Твен"
+      },
+      {
+        "quote": "Хто не рызыкуе, той не п'е шампанскага.",
+        "author": "Аляксандр Пушкін"
+      },
+      {
+        "quote": "Жыццё кароткае, каб чакаць.",
+        "author": "Невядомы"
+      },
+      {
+        "quote": "Ён думае, што ведае, што не ведае.",
+        "author": "Сакрат"
+      },
+      {
+        "quote": "Няма нічога такога, што нельга было б зрабіць лепш.",
+        "author": "Леанарда да Вінчы"
+      },
+      {
+        "quote": "Час - гэта грошы.",
+        "author": "Бенджамін Франклін"
+      },
+      {
+        "quote": "Людзі не разумеюць таго, што маюць, пакуль не страцяць яго.",
+        "author": "Лаа Цзы"
+      },
+      {
+        "quote": "Хто вучыцца, жыве вечна.",
+        "author": "Георг Вілем Фрэйд"
+      },
+      {
+        "quote": "Не чакайце ад жыцця чагосьці адплаты, жыце так, каб жыць з задавальненнем.",
+        "author": "Аляксандр Дзюма"
+      },
+      {
+        "quote": "Хто хоча жыць вечна, павінен рабіць нешта, што будзе жыць вечна.",
+        "author": "Невядомы"
+      },
+      {
+        "quote": "Калі вы хочаце даведацца, хто вы на самой справе, паспрабуйце рабіць тое, што вы баіцеся.",
+        "author": "Алена Бонэр"
+      },
+      {
+        "quote": "Не судзіце іншых, калі самі не жадаеце быць асуджанымі.",
+        "author": "Джэймс Ален"
+      },
+      {
+        "quote": "Мы не можам жыць у мінулым, але мы можам вывучаць яго.",
+        "author": "Альберт Эйнштэйн"
+      },
+      {
+        "quote": "Старасць не для трусоў.",
+        "author": "Невядомы"
+      },
+      {
+        "quote": "Мудрасць не можа быць перададзена, яна можа быць толькі набыта.",
+        "author": "Канфуцый"
+      },
+      {
+        "quote": "Жыццё для тых, хто жыве, а для тых, хто не жыве, яно не існуе.",
+        "author": "Эпіктэт"
+      },
+      {
+        "quote": "Жыццё кароткае, каб чакаць.",
+        "author": "Невядомы"
+      },
+      {
+        "quote": "Ніколі не позна пачаць усё спачатку.",
+        "author": "Франсуа Можа"
+      },
+      {
+        "quote": "Не той, хто жыве мала, а той, хто мала жыве.",
+        "author": "Сенека"
+      },
+      {
+        "quote": "Самы складаны шлях - гэта шлях да сябе.",
+        "author": "Фрыдрых Ніцшэ"
+      }
+    ],
+    "en": [
+      {
+        "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+        "author": "Thomas Edison"
+      },
+      {
+        "quote": "You can observe a lot just by watching.",
+        "author": "Yogi Berra"
+      },
+      {
+        "quote": "A house divided against itself cannot stand.",
+        "author": "Abraham Lincoln"
+      },
+      {
+        "quote": "Difficulties increase the nearer we get to the goal.",
+        "author": "Johann Wolfgang von Goethe"
+      },
+      {
+        "quote": "Fate is in your hands and no one elses",
+        "author": "Byron Pulsifer"
+      },
+      {
+        "quote": "Be the chief but never the lord.",
+        "author": "Lao Tzu"
+      },
+      {
+        "quote": "Nothing happens unless first we dream.",
+        "author": "Carl Sandburg"
+      },
+      {
+        "quote": "Well begun is half done.",
+        "author": "Aristotle"
+      },
+      {
+        "quote": "Life is a learning experience, only if you learn.",
+        "author": "Yogi Berra"
+      },
+      {
+        "quote": "Self-complacency is fatal to progress.",
+        "author": "Margaret Sangster"
+      },
+      {
+        "quote": "Peace comes from within. Do not seek it without.",
+        "author": "Buddha"
+      },
+      {
+        "quote": "What you give is what you get.",
+        "author": "Byron Pulsifer"
+      },
+      {
+        "quote": "We can only learn to love by loving.",
+        "author": "Iris Murdoch"
+      },
+      {
+        "quote": "Life is change. Growth is optional. Choose wisely.",
+        "author": "Karen Clark"
+      },
+      {
+        "quote": "You'll see it when you believe it.",
+        "author": "Wayne Dyer"
+      },
+      {
+        "quote": "Today is the tomorrow we worried about yesterday.",
+        "author": null
+      },
+      {
+        "quote": "It's easier to see the mistakes on someone else's paper.",
+        "author": null
+      },
+      {
+        "quote": "Every man dies. Not every man really lives.",
+        "author": null
+      },
+      {
+        "quote": "To lead people walk behind them.",
+        "author": "Lao Tzu"
+      },
+      {
+        "quote": "Having nothing, nothing can he lose.",
+        "author": "William Shakespeare"
+      },
+      {
+        "quote": "Trouble is only opportunity in work clothes.",
+        "author": "Henry J. Kaiser"
+      },
+      {
+        "quote": "A rolling stone gathers no moss.",
+        "author": "Publilius Syrus"
+      },
+      {
+        "quote": "Ideas are the beginning points of all fortunes.",
+        "author": "Napoleon Hill"
+      },
+      {
+        "quote": "Everything in life is luck.",
+        "author": "Donald Trump"
+      },
+      {
+        "quote": "Doing nothing is better than being busy doing nothing.",
+        "author": "Lao Tzu"
+      }
+    ]
+  }
+}
