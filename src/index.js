@@ -21,3 +21,7 @@ setInterval(() => {
   grPage.innerText = cl.greetings;
   // loadConfig();
 }, 1000);
+const nextquote = document.querySelector("#nextquote");
+nextquote.addEventListener("click", ()=>{
+  showQuotes(configMomentum.lang);
+})

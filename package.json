@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/yuuba/momentum#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
     "filemanager-webpack-plugin": "^8.0.0",
     "gh-pages": "^5.0.0",
